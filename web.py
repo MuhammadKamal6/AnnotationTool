@@ -6,7 +6,7 @@ from PIL import Image
 from pathlib import Path
 
 # === CONFIGURATION ===
-IMAGE_ROOT = "G:/My Drive/PedestrianData"  # your synced folder
+IMAGE_ROOT = "https://drive.google.com/drive/folders/1mmXY0U10upZ3aeQcfY7Ija2AIOH84HYv?usp=sharing"  # your synced folder
 EXPORT_CSV = "all_annotations.csv"
 
 # === Load all image paths
@@ -88,3 +88,4 @@ if st.button("📤 Export All Annotations"):
 
 # Progress
 st.markdown(f"Frame `{st.session_state.index + 1}` of `{len(images)}`")
+
