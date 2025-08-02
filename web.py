@@ -85,3 +85,4 @@ if submit:
 
 # === Progress
 st.markdown(f"🖼️ Frame `{st.session_state.index + 1}` of `{len(images)}`")
+
